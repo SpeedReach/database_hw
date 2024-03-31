@@ -1,0 +1,1 @@
+SELECT e.SSN, e.DNO FROM employee e;

@@ -1,0 +1,1 @@
+SELECT DISTINCT e.SALARY FROM employee e;

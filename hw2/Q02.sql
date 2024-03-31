@@ -1,0 +1,4 @@
+SELECT p.PNUMBER, d.DNUMBER, e.LNAME, e.ADDRESS, e.BDATE FROM department d
+LEFT JOIN employee e ON e.SSN = d.MGRSSN
+RIGHT JOIN project p ON p.DNUM = d.DNUMBER
+WHERE p.PLOCATION = 'Stafford'
